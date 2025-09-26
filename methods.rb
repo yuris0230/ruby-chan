@@ -20,3 +20,5 @@ puts name[0,3] # give you first 3 character (0,1,2) *not include 3
 # only first character that found
 puts name.index("Yuris")
 # expect output 0
+
+puts "His handle name is #{name.upcase} #{name.length}"
