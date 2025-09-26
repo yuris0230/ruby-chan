@@ -5,4 +5,18 @@
 # \n for new line just like in c
 # name = container that contain value
 name = "Yuris\"50th Canvas"
-puts name 
+# upcase, downcase, strip -> delete weird white spaces
+puts name.upcase() # .upcase is the method that make string or text upper case
+puts "programming".upcase()
+
+# length -> count char, include? -> return true or false
+puts name.include? "50th"
+# expect output = true
+
+# [n] print the char from index (start from 0)
+puts name[0,3] # give you first 3 character (0,1,2) *not include 3
+# expect output "Yur"
+
+# only first character that found
+puts name.index("Yuris")
+# expect output 0
