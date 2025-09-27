@@ -11,4 +11,6 @@ puts (num - 10) % 10
 puts ("my fa num " + num.to_s) #.to_s = to string, to_i int, to_f float etc.
 # .abs() = absolute value, .round() = round, .ceil(), .floor()
 puts Math.sqrt(36) # Math Class, square root
-puts Math.log(2)
+puts Math.log(2) # logarithm
+
+puts 10 / 7 # output is 1 becuz always return "int"
