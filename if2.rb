@@ -9,7 +9,7 @@ def max(num1, num2, num3)
 end
 
 # better solution
-def max(*nums)
-  nums.max
+def max(*nums) # (*nums) "*" splat operator means put all the argument input into the arrays 
+  nums.max # nums = [x, x, x, x, x].max
 end
 puts max(5, 9, 3, 12, 8)  # => 12
