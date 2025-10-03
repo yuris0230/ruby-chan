@@ -1,0 +1,6 @@
+* Splat operator
+lorem
+comments
+Alan
+Adam
+Rowan
